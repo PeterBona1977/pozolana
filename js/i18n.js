@@ -85,7 +85,8 @@ const translations = {
         "footer_copy": "© 2026 Pozolana - Construção Civil e Betão Pronto Lda. Todos os direitos reservados. | Política de Cookies",
         
         "cookie_title": "Valorizamos a sua privacidade",
-        "cookie_desc": "Utilizamos cookies para melhorar a sua experiência de navegação, oferecer funcionalidades essenciais e analisar o nosso tráfego. Pode gerir as suas preferências ou aceitar todos os cookies.",
+        "cookie_desc": "Utilizamos cookies para melhorar a sua experiência de navegação, oferecer funcionalidades essenciais e analisar o nosso tráfego. Pode consultar a nossa <a href=\"#\" class=\"cookie-link\" data-i18n=\"cookie_link\">Política de Cookies</a> e gerir as suas preferências a qualquer momento.",
+        "cookie_link": "Política de Cookies",
         "cookie_accept": "Aceitar Todos",
         "cookie_reject": "Apenas Essenciais"
     },
@@ -175,7 +176,8 @@ const translations = {
         "footer_copy": "© 2026 Pozolana - Construção Civil e Betão Pronto Lda. All rights reserved. | Cookie Policy",
 
         "cookie_title": "We value your privacy",
-        "cookie_desc": "We use cookies to improve your browsing experience, offer essential functionalities, and analyze our traffic. You can manage your preferences or accept all cookies.",
+        "cookie_desc": "We use cookies to improve your browsing experience, offer essential functionalities, and analyze our traffic. You can consult our <a href=\"#\" class=\"cookie-link\" data-i18n=\"cookie_link\">Cookie Policy</a> and manage your preferences at any time.",
+        "cookie_link": "Cookie Policy",
         "cookie_accept": "Accept All",
         "cookie_reject": "Essential Only"
     }
