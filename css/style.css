@@ -862,6 +862,16 @@ img {
     margin-top: 5px;
 }
 
+.cookie-link {
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cookie-link:hover {
+    color: var(--color-accent);
+}
+
 .cookie-buttons {
     display: flex;
     gap: 12px;
