@@ -16,7 +16,6 @@
     <header id="header" class="site-header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <!-- Using the logo you provided. Please ensure it's saved as assets/images/logo.png -->
                 <img src="assets/images/logo.png" alt="Pozolana Logo" id="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                 <span class="logo-fallback" style="display:none; font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.5rem; color: #182C51; letter-spacing: 1px;">POZOLANA</span>
             </a>
@@ -27,13 +26,18 @@
 
             <nav id="main-nav" class="main-nav">
                 <ul>
-                    <li><a href="#quem-somos">Quem Somos</a></li>
-                    <li><a href="#o-que-fazemos">Serviços</a></li>
-                    <li><a href="#como-fazemos">Método</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="#onde-estamos">Localização</a></li>
-                    <li><a href="#contactos" class="btn-primary-sm">Contactos</a></li>
+                    <li><a href="#quem-somos" data-i18n="nav_about">Quem Somos</a></li>
+                    <li><a href="#o-que-fazemos" data-i18n="nav_services">Serviços</a></li>
+                    <li><a href="#como-fazemos" data-i18n="nav_method">Método</a></li>
+                    <li><a href="#portfolio" data-i18n="nav_portfolio">Portfólio</a></li>
+                    <li><a href="#onde-estamos" data-i18n="nav_location">Localização</a></li>
+                    <li><a href="#contactos" class="btn-primary-sm" data-i18n="nav_contact">Contactos</a></li>
                 </ul>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="pt" aria-label="Português" title="Português">PT</button>
+                    <span class="lang-sep">|</span>
+                    <button class="lang-btn" data-lang="en" aria-label="English" title="English">EN</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -44,11 +48,11 @@
         <section class="hero" id="inicio">
             <div class="hero-overlay"></div>
             <div class="container hero-content reveal">
-                <h1>Construção de Excelência<br><span class="text-accent">Soluções Inovadoras</span></h1>
-                <p>Especialistas em Construção Tradicional, Sistema ICF e fornecimento de Betão Pronto com os mais elevados padrões de qualidade e segurança.</p>
+                <h1><span data-i18n="hero_title_1">Construção de Excelência</span><br><span class="text-accent" data-i18n="hero_title_2">Soluções Inovadoras</span></h1>
+                <p data-i18n="hero_desc">EMPRESA DE CONSTRUÇÃO COM 30 ANOS. Especialistas em Construção Tradicional, Sistema ICF e fornecimento de Betão Pronto com os mais elevados padrões de qualidade e segurança.</p>
                 <div class="hero-buttons">
-                    <a href="#o-que-fazemos" class="btn-primary">Conheça os Serviços</a>
-                    <a href="#portfolio" class="btn-outline-light">Ver Portfólio</a>
+                    <a href="#o-que-fazemos" class="btn-primary" data-i18n="hero_btn_services">Conheça os Serviços</a>
+                    <a href="#portfolio" class="btn-outline-light" data-i18n="hero_btn_portfolio">Ver Portfólio</a>
                 </div>
             </div>
             <div class="scroll-indicator">
@@ -60,14 +64,14 @@
         <section id="quem-somos" class="section-padding">
             <div class="container two-col">
                 <div class="col-text reveal">
-                    <h4 class="section-kicker">A Nossa Essência</h4>
-                    <h2>Quem Somos</h2>
-                    <p>A <strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong> é uma empresa dedicada a entregar projetos de construção com a máxima qualidade, segurança e eficiência. Com uma equipa experiente e dedicada, transformamos as visões dos nossos clientes em realidade.</p>
-                    <p>Apostamos na inovação constante, aliando métodos de construção tradicionais aos mais modernos sistemas construtivos do mercado, garantindo obras duradouras, esteticamente irrepreensíveis e sustentáveis.</p>
+                    <h4 class="section-kicker" data-i18n="about_kicker">A Nossa Essência</h4>
+                    <h2 data-i18n="about_title">Quem Somos</h2>
+                    <p data-i18n="about_p1">A <strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong> é uma empresa com 30 anos de experiência dedicada a entregar projetos de construção com a máxima qualidade, segurança e eficiência. Com uma equipa experiente e dedicada, transformamos as visões dos nossos clientes em realidade.</p>
+                    <p data-i18n="about_p2">Apostamos na inovação constante, aliando métodos de construção tradicionais aos mais modernos sistemas construtivos do mercado, garantindo obras duradouras, esteticamente irrepreensíveis e sustentáveis.</p>
                     <ul class="feature-list">
-                        <li><span class="icon">✓</span> Compromisso com Prazos</li>
-                        <li><span class="icon">✓</span> Qualidade Premium</li>
-                        <li><span class="icon">✓</span> Inovação Contínua</li>
+                        <li><span class="icon">✓</span> <span data-i18n="about_feat1">Compromisso com Prazos</span></li>
+                        <li><span class="icon">✓</span> <span data-i18n="about_feat2">Qualidade Premium</span></li>
+                        <li><span class="icon">✓</span> <span data-i18n="about_feat3">Inovação Contínua</span></li>
                     </ul>
                 </div>
                 <div class="col-img reveal delay-1">
@@ -79,9 +83,9 @@
         <!-- O que Fazemos -->
         <section id="o-que-fazemos" class="section-padding bg-light">
             <div class="container text-center">
-                <h4 class="section-kicker">A Nossa Especialidade</h4>
-                <h2>O que Fazemos</h2>
-                <p class="section-subtitle">Oferecemos soluções completas e integradas para a sua obra, dominando desde a fundação ao acabamento com maestria técnica.</p>
+                <h4 class="section-kicker" data-i18n="services_kicker">A Nossa Especialidade</h4>
+                <h2 data-i18n="services_title">O que Fazemos</h2>
+                <p class="section-subtitle" data-i18n="services_subtitle">Oferecemos soluções completas e integradas para a sua obra, dominando desde a fundação ao acabamento com maestria técnica.</p>
                 
                 <div class="services-grid">
                     <div class="service-card reveal">
@@ -89,17 +93,17 @@
                             <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=500&auto=format&fit=crop" alt="Construção Tradicional">
                         </div>
                         <div class="service-card-content">
-                            <h3>Construção Tradicional</h3>
-                            <p>Construção civil clássica em blocos, tijolo e cimento. Garantimos acabamentos de alta qualidade, robustez e uma resistência comprovada ao longo do tempo.</p>
+                            <h3 data-i18n="srv1_title">Construção Civil</h3>
+                            <p data-i18n="srv1_desc">Edifícios e Moradias (Chave na mão). Garantimos acabamentos de alta qualidade, robustez e uma resistência comprovada ao longo do tempo.</p>
                         </div>
                     </div>
                     <div class="service-card reveal delay-1">
                         <div class="service-icon-img">
-                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=500&auto=format&fit=crop" alt="Sistema Construtivo ICF">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=500&auto=format&fit=crop" alt="Remodelações">
                         </div>
                         <div class="service-card-content">
-                            <h3>Sistema Construtivo ICF</h3>
-                            <p>Construção com blocos de cofragem isolante (ICF). Destaca-se pela maior eficiência energética, excelente isolamento acústico e notável rapidez de execução.</p>
+                            <h3 data-i18n="srv2_title">Remodelações</h3>
+                            <p data-i18n="srv2_desc">Habitações e Lojas. Transformamos e revitalizamos o seu espaço com os melhores materiais e técnicas do mercado.</p>
                         </div>
                     </div>
                     <div class="service-card reveal delay-2">
@@ -107,8 +111,17 @@
                             <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=500&auto=format&fit=crop" alt="Betão Pronto">
                         </div>
                         <div class="service-card-content">
-                            <h3>Betão Pronto</h3>
-                            <p>Produção e fornecimento de betão pronto de elevada qualidade. Soluções perfeitamente adaptadas às exigências estruturais e climáticas de cada projeto.</p>
+                            <h3 data-i18n="srv3_title">Betão Pronto</h3>
+                            <p data-i18n="srv3_desc">Fábrica de produção de betão (Em fase de construção). Soluções perfeitamente adaptadas às exigências estruturais e climáticas de cada projeto.</p>
+                        </div>
+                    </div>
+                    <div class="service-card reveal delay-3">
+                        <div class="service-icon-img">
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=500&auto=format&fit=crop" alt="Sistemas Construtivos">
+                        </div>
+                        <div class="service-card-content">
+                            <h3 data-i18n="srv4_title">Sistemas Construtivos em Execução</h3>
+                            <p data-i18n="srv4_desc">Artesanal e ICF (blocos de cofragem isolante). Destacam-se pela maior eficiência energética, isolamento e notável rapidez de execução.</p>
                         </div>
                     </div>
                 </div>
@@ -118,38 +131,38 @@
         <!-- Como Fazemos -->
         <section id="como-fazemos" class="section-padding">
             <div class="container text-center">
-                <h4 class="section-kicker">O Nosso Método</h4>
-                <h2>Como Fazemos</h2>
-                <p class="section-subtitle">O nosso processo construtivo é pautado pela transparência, rigor técnico e cumprimento escrupuloso de prazos.</p>
+                <h4 class="section-kicker" data-i18n="method_kicker">O Nosso Método</h4>
+                <h2 data-i18n="method_title">Como Fazemos</h2>
+                <p class="section-subtitle" data-i18n="method_subtitle">O nosso processo construtivo é pautado pela transparência, rigor técnico e cumprimento escrupuloso de prazos.</p>
                 
                 <div class="process-steps">
                     <div class="step reveal">
                         <div class="step-icon-wrapper">
                             <div class="step-number">01</div>
                         </div>
-                        <h4>Planeamento</h4>
-                        <p>Análise detalhada do projeto, estudo de viabilidade e planeamento rigoroso de todas as fases.</p>
+                        <h4 data-i18n="method_1_title">Planeamento</h4>
+                        <p data-i18n="method_1_desc">Análise detalhada do projeto, estudo de viabilidade e planeamento rigoroso de todas as fases.</p>
                     </div>
                     <div class="step reveal delay-1">
                         <div class="step-icon-wrapper">
                             <div class="step-number">02</div>
                         </div>
-                        <h4>Execução</h4>
-                        <p>Mobilização de mão de obra altamente especializada aliada a materiais de topo de gama.</p>
+                        <h4 data-i18n="method_2_title">Execução</h4>
+                        <p data-i18n="method_2_desc">Mobilização de mão de obra altamente especializada aliada a materiais de topo de gama.</p>
                     </div>
                     <div class="step reveal delay-2">
                         <div class="step-icon-wrapper">
                             <div class="step-number">03</div>
                         </div>
-                        <h4>Supervisão</h4>
-                        <p>Acompanhamento constante, controlo de qualidade e comunicação transparente com o cliente.</p>
+                        <h4 data-i18n="method_3_title">Supervisão</h4>
+                        <p data-i18n="method_3_desc">Acompanhamento constante, controlo de qualidade e comunicação transparente com o cliente.</p>
                     </div>
                     <div class="step reveal delay-3">
                         <div class="step-icon-wrapper">
                             <div class="step-number">04</div>
                         </div>
-                        <h4>Entrega</h4>
-                        <p>Conclusão da obra respeitando os mais elevados padrões de exigência e limpeza do local.</p>
+                        <h4 data-i18n="method_4_title">Entrega</h4>
+                        <p data-i18n="method_4_desc">Conclusão da obra respeitando os mais elevados padrões de exigência e limpeza do local.</p>
                     </div>
                 </div>
             </div>
@@ -159,9 +172,9 @@
         <section id="portfolio" class="section-padding bg-dark text-white">
             <div class="container">
                 <div class="text-center reveal">
-                    <h4 class="section-kicker text-accent">As Nossas Obras</h4>
-                    <h2>Portfólio de Construção</h2>
-                    <p class="section-subtitle">Uma seleção dos nossos projetos mais recentes, demonstrando a nossa versatilidade.</p>
+                    <h4 class="section-kicker text-accent" data-i18n="portfolio_kicker">As Nossas Obras</h4>
+                    <h2 data-i18n="portfolio_title">Portfólio de Construção</h2>
+                    <p class="section-subtitle" data-i18n="portfolio_subtitle">Uma seleção dos nossos projetos mais recentes, demonstrando a nossa versatilidade.</p>
                 </div>
 
                 <div class="portfolio-grid">
@@ -169,12 +182,12 @@
                         <div class="portfolio-img-wrapper">
                             <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop" alt="Projeto Residencial Tradicional">
                             <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Construção Tradicional</span>
+                                <span class="portfolio-tag" data-i18n="port1_tag">Construção Tradicional</span>
                             </div>
                         </div>
                         <div class="portfolio-content">
-                            <h3>Moradia Unifamiliar Premium</h3>
-                            <p>Construção tradicional em tijolo térmico com acabamentos de luxo. Destaque para a piscina de borda infinita. Duração: 12 meses.</p>
+                            <h3 data-i18n="port1_title">Moradia Unifamiliar Premium</h3>
+                            <p data-i18n="port1_desc">Construção tradicional em tijolo térmico com acabamentos de luxo. Destaque para a piscina de borda infinita. Duração: 12 meses.</p>
                         </div>
                     </article>
                     
@@ -182,12 +195,12 @@
                         <div class="portfolio-img-wrapper">
                             <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop" alt="Projeto Sistema ICF">
                             <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Sistema ICF</span>
+                                <span class="portfolio-tag" data-i18n="port2_tag">Sistema ICF</span>
                             </div>
                         </div>
                         <div class="portfolio-content">
-                            <h3>Edifício Eficiência A+</h3>
-                            <p>Construção vanguardista em sistema ICF, garantindo um isolamento térmico e acústico sem precedentes na região.</p>
+                            <h3 data-i18n="port2_title">Edifício Eficiência A+</h3>
+                            <p data-i18n="port2_desc">Construção vanguardista em sistema ICF, garantindo um isolamento térmico e acústico sem precedentes na região.</p>
                         </div>
                     </article>
                     
@@ -195,12 +208,12 @@
                         <div class="portfolio-img-wrapper">
                             <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop" alt="Estrutura em Betão Armado">
                             <div class="portfolio-overlay">
-                                <span class="portfolio-tag">Betão Pronto</span>
+                                <span class="portfolio-tag" data-i18n="port3_tag">Betão Pronto</span>
                             </div>
                         </div>
                         <div class="portfolio-content">
-                            <h3>Complexo Industrial</h3>
-                            <p>Fornecimento massivo de betão pronto e execução de estrutura complexa em betão armado para armazém logístico.</p>
+                            <h3 data-i18n="port3_title">Complexo Industrial</h3>
+                            <p data-i18n="port3_desc">Fornecimento massivo de betão pronto e execução de estrutura complexa em betão armado para armazém logístico.</p>
                         </div>
                     </article>
                 </div>
@@ -211,60 +224,64 @@
         <section class="section-padding" id="onde-estamos">
             <div class="container two-col">
                 <div class="col-text reveal" id="contactos">
-                    <h4 class="section-kicker">Fale Connosco</h4>
-                    <h2>Contactos</h2>
-                    <p>Estamos prontos para analisar o seu projeto. Entre em contacto para obter um orçamento detalhado ou esclarecer qualquer dúvida.</p>
+                    <h4 class="section-kicker" data-i18n="contact_kicker">Fale Connosco</h4>
+                    <h2 data-i18n="contact_title">Contactos</h2>
+                    <p data-i18n="contact_desc">Estamos prontos para analisar o seu projeto. Entre em contacto para obter um orçamento detalhado ou esclarecer qualquer dúvida.</p>
                     
                     <div class="contact-details">
                         <div class="contact-item">
                             <div class="contact-icon">✉️</div>
                             <div>
-                                <strong>Email</strong>
-                                <p>geral@pozolana.pt</p>
+                                <strong data-i18n="contact_email_lbl">Email</strong>
+                                <p>pozolana.construcoes.geral@gmail.com</p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">📞</div>
                             <div>
-                                <strong>Telefone</strong>
-                                <p>+351 900 000 000</p>
+                                <strong data-i18n="contact_phone_lbl">Telefone</strong>
+                                <p>+351 920 225 082</p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">📍</div>
                             <div>
-                                <strong>Sede Operacional</strong>
-                                <p>Zona Industrial, Lote 1<br>Portugal</p>
+                                <strong data-i18n="contact_addr_lbl">Sede Operacional</strong>
+                                <p data-i18n="contact_addr_val">Largo 7 de Dezembro 2 LOJA ESQ<br>2770-164 Paço de Arcos</p>
                             </div>
                         </div>
                     </div>
 
-                    <form class="contact-form" action="#" method="POST" id="form-contacto">
+                    <form class="contact-form" action="https://formsubmit.co/pozolana.construcoes.geral@gmail.com" method="POST" id="form-contacto">
+                        <!-- Redirecionar para a mesma página apos envio (opcional), e usar antispam -->
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_next" value="https://pozolana.pt/">
+
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="nome">Nome Completo</label>
-                                <input type="text" id="nome" name="nome" placeholder="O seu nome" required>
+                                <label for="nome" data-i18n="form_name">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" placeholder="O seu nome" data-i18n="form_name_ph" required>
                             </div>
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="O seu email" required>
+                                <label for="email" data-i18n="form_email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="O seu email" data-i18n="form_email_ph" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="mensagem">Mensagem / Pedido de Orçamento</label>
-                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?" required></textarea>
+                            <label for="mensagem" data-i18n="form_msg">Mensagem / Pedido de Orçamento</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?" data-i18n="form_msg_ph" required></textarea>
                         </div>
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="rgpd-consent" name="rgpd-consent" required>
-                            <label for="rgpd-consent">Concordo com o tratamento dos meus dados para resposta a este contacto, conforme a <a href="#">política de privacidade</a> (RGPD).</label>
+                            <label for="rgpd-consent"><span data-i18n="form_rgpd">Concordo com o tratamento dos meus dados para resposta a este contacto, conforme a política de privacidade (RGPD).</span></label>
                         </div>
-                        <button type="submit" class="btn-primary w-full">Enviar Mensagem</button>
+                        <button type="submit" class="btn-primary w-full" data-i18n="form_btn">Enviar Mensagem</button>
                     </form>
                 </div>
                 <div class="col-map reveal delay-1">
                     <div class="map-container shadow-xl">
-                        <!-- Placeholder map -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12345!2d-9.139!3d38.722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1600000000000!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" aria-label="Mapa de localização"></iframe>
+                        <!-- Mapa focado em Paço de Arcos -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.820756770513!2d-9.298285784656133!3d38.69894337960173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8da781c8b3b%3A0xc6c76dbbf9e9c402!2sLargo%207%20de%20Dezembro%202%2C%202770-164%20Pa%C3%A7o%20de%20Arcos!5e0!3m2!1spt-PT!2spt!4v1680000000000!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" aria-label="Mapa de localização"></iframe>
                     </div>
                 </div>
             </div>
@@ -275,24 +292,23 @@
     <footer class="site-footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <!-- Fallback text logo for footer if image is not there -->
                 <h3 style="font-family: 'Outfit', sans-serif; font-size: 2rem; margin-bottom: 0.5rem; letter-spacing: 1px; color: #ffffff;">POZOLANA</h3>
                 <p>Construção Civil e Betão Pronto Lda.</p>
-                <p class="footer-desc">Construímos o futuro com bases sólidas. Excelência, segurança e inovação em cada obra que assinamos.</p>
+                <p class="footer-desc" data-i18n="footer_desc">Construímos o futuro com bases sólidas. Excelência, segurança e inovação em cada obra que assinamos.</p>
             </div>
             
             <div class="footer-links">
-                <h4>Navegação Rápida</h4>
+                <h4 data-i18n="footer_nav">Navegação Rápida</h4>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
-                    <li><a href="#quem-somos">Quem Somos</a></li>
-                    <li><a href="#o-que-fazemos">Serviços</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#quem-somos" data-i18n="nav_about">Quem Somos</a></li>
+                    <li><a href="#o-que-fazemos" data-i18n="nav_services">Serviços</a></li>
+                    <li><a href="#portfolio" data-i18n="nav_portfolio">Portfólio</a></li>
                 </ul>
             </div>
 
             <div class="footer-socials">
-                <h4>Siga o nosso trabalho</h4>
+                <h4 data-i18n="footer_social">Siga o nosso trabalho</h4>
                 <div class="social-links">
                     <a href="#" target="_blank" aria-label="LinkedIn" class="social-icon">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -303,18 +319,12 @@
                     <a href="#" target="_blank" aria-label="Instagram" class="social-icon">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </a>
-                    <a href="#" target="_blank" aria-label="TikTok" class="social-icon">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.53 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
-                    </a>
-                    <a href="#" target="_blank" aria-label="YouTube" class="social-icon">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                    </a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>&copy; 2026 Pozolana - Construção Civil e Betão Pronto Lda. Todos os direitos reservados. | <a href="#">Política de Cookies</a></p>
+                <p data-i18n="footer_copy">&copy; 2026 Pozolana - Construção Civil e Betão Pronto Lda. Todos os direitos reservados. | Política de Cookies</p>
             </div>
         </div>
     </footer>
@@ -323,16 +333,18 @@
     <div id="cookie-banner" class="cookie-banner" aria-live="polite">
         <div class="cookie-content">
             <div class="cookie-text">
-                <strong>Valorizamos a sua privacidade</strong>
-                <p>Utilizamos cookies para melhorar a sua experiência de navegação, oferecer funcionalidades essenciais e analisar o nosso tráfego. Pode gerir as suas preferências ou aceitar todos os cookies.</p>
+                <strong data-i18n="cookie_title">Valorizamos a sua privacidade</strong>
+                <p data-i18n="cookie_desc">Utilizamos cookies para melhorar a sua experiência de navegação, oferecer funcionalidades essenciais e analisar o nosso tráfego. Pode gerir as suas preferências ou aceitar todos os cookies.</p>
             </div>
             <div class="cookie-buttons">
-                <button id="accept-cookies" class="btn-primary-sm">Aceitar Todos</button>
-                <button id="reject-cookies" class="btn-outline-sm">Apenas Essenciais</button>
+                <button id="accept-cookies" class="btn-primary-sm" data-i18n="cookie_accept">Aceitar Todos</button>
+                <button id="reject-cookies" class="btn-outline-sm" data-i18n="cookie_reject">Apenas Essenciais</button>
             </div>
         </div>
     </div>
 
+    <!-- Scripts -->
+    <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -74,13 +74,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Form Submission (Prevent Default for Demo) ---
+    // --- Form Submission ---
+    // Let the form submit natively to FormSubmit.co
+    // The redirect and captcha are handled by FormSubmit hidden fields.
     const contactForm = document.getElementById('form-contacto');
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Obrigado pelo seu contacto. Responderemos o mais breve possível!');
-            contactForm.reset();
+        contactForm.addEventListener('submit', () => {
+            // Optional: You could show a loading state on the button here
+            const btn = contactForm.querySelector('button[type="submit"]');
+            if(btn) {
+                btn.innerHTML = 'A enviar... <span style="font-size: 12px">⏳</span>';
+                btn.style.opacity = '0.8';
+            }
         });
     }
 
