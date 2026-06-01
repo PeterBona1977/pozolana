@@ -9,7 +9,7 @@ const translations = {
         
         "hero_title_1": "Construção de Excelência",
         "hero_title_2": "Soluções Inovadoras",
-        "hero_desc": "EMPRESA DE CONSTRUÇÃO COM 30 ANOS. Especialistas em Construção Tradicional, Sistema ICF e fornecimento de Betão Pronto com os mais elevados padrões de qualidade e segurança.",
+        "hero_desc": "EMPRESA DE CONSTRUÇÃO COM 30 ANOS<br><br>Construção Tradicional<br>Sistema ICF<br>Remodelações<br>Betão Pronto",
         "hero_btn_services": "Conheça os Serviços",
         "hero_btn_portfolio": "Ver Portfólio",
         
@@ -153,7 +153,7 @@ const translations = {
         
         "hero_title_1": "Excellence in Construction",
         "hero_title_2": "Innovative Solutions",
-        "hero_desc": "30 YEARS OF EXPERIENCE. Experts in Traditional Construction, ICF System, and Ready-Mix Concrete supply with the highest standards of quality and safety.",
+        "hero_desc": "CONSTRUCTION COMPANY WITH 30 YEARS<br><br>Traditional Construction<br>ICF System<br>Remodeling<br>Ready-Mix Concrete",
         "hero_btn_services": "Discover Our Services",
         "hero_btn_portfolio": "View Portfolio",
         
