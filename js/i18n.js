@@ -15,7 +15,7 @@ const translations = {
         
         "about_kicker": "A Nossa Essência",
         "about_title": "Quem Somos",
-        "about_p1": "A <strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong> é uma empresa com 30 anos de experiência dedicada a entregar projetos de construção com a máxima qualidade, segurança e eficiência. Com uma equipa experiente e dedicada, transformamos as visões dos nossos clientes em realidade.",
+        "about_p1": "A <strong>Pozolana Edificações Lda.</strong> é uma empresa com 30 anos de experiência dedicada a entregar projetos de construção com a máxima qualidade, segurança e eficiência. Com uma equipa experiente e dedicada, transformamos as visões dos nossos clientes em realidade.",
         "about_p2": "Apostamos na inovação constante, aliando métodos de construção tradicionais aos mais modernos sistemas construtivos do mercado, garantindo obras duradouras, esteticamente irrepreensíveis e sustentáveis.",
         "about_feat1": "Compromisso com Prazos",
         "about_feat2": "Qualidade Premium",
@@ -89,7 +89,7 @@ const translations = {
         "footer_desc": "Construímos o futuro com bases sólidas. Excelência, segurança e inovação em cada obra que assinamos.",
         "footer_nav": "Navegação Rápida",
         "footer_social": "Siga o nosso trabalho",
-        "footer_copy": "© 2026 Pozolana - Construção Civil e Betão Pronto Lda. Todos os direitos reservados.",
+        "footer_copy": "© 2026 Pozolana Edificações Lda. Todos os direitos reservados.",
         
         "cookie_title": "Valorizamos a sua privacidade",
         "cookie_desc": "Utilizamos cookies para melhorar a sua experiência de navegação, oferecer funcionalidades essenciais e analisar o nosso tráfego. Pode consultar a nossa <a href=\"#\" class=\"cookie-link\" data-i18n=\"cookie_link\">Política de Cookies</a> e gerir as suas preferências a qualquer momento.",
@@ -119,7 +119,7 @@ const translations = {
         "cookies_p5": "Pode gerir as suas preferências de cookies a qualquer momento, limpando os cookies e o histórico de navegação do seu navegador.",
 
         "privacy_page_title": "Política de Privacidade",
-        "privacy_p1": "Na <strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong>, uma das nossas principais prioridades é a privacidade dos nossos visitantes. Este documento de Política de Privacidade contém os tipos de informações que são recolhidas e registadas pela Pozolana e como as utilizamos.",
+        "privacy_p1": "Na <strong>Pozolana Edificações Lda.</strong>, uma das nossas principais prioridades é a privacidade dos nossos visitantes. Este documento de Política de Privacidade contém os tipos de informações que são recolhidas e registadas pela Pozolana e como as utilizamos.",
         "privacy_p2": "Se tiver questões adicionais ou necessitar de mais informações sobre a nossa Política de Privacidade, não hesite em contactar-nos.",
         "privacy_p3": "Esta Política de Privacidade aplica-se apenas às nossas atividades online.",
         "privacy_h2_1": "Consentimento",
@@ -159,7 +159,7 @@ const translations = {
         
         "about_kicker": "Our Essence",
         "about_title": "About Us",
-        "about_p1": "<strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong> is a company with 30 years of experience dedicated to delivering construction projects with maximum quality, safety, and efficiency. With an experienced and dedicated team, we turn our clients' visions into reality.",
+        "about_p1": "<strong>Pozolana Edificações Lda.</strong> is a company with 30 years of experience dedicated to delivering construction projects with maximum quality, safety, and efficiency. With an experienced and dedicated team, we turn our clients' visions into reality.",
         "about_p2": "We focus on constant innovation, combining traditional construction methods with the most modern building systems on the market, ensuring durable, aesthetically flawless, and sustainable works.",
         "about_feat1": "Commitment to Deadlines",
         "about_feat2": "Premium Quality",
@@ -233,7 +233,7 @@ const translations = {
         "footer_desc": "We build the future with solid foundations. Excellence, safety, and innovation in every work we sign.",
         "footer_nav": "Quick Navigation",
         "footer_social": "Follow our work",
-        "footer_copy": "© 2026 Pozolana - Construção Civil e Betão Pronto Lda. All rights reserved.",
+        "footer_copy": "© 2026 Pozolana Edificações Lda. All rights reserved.",
 
         "cookie_title": "We value your privacy",
         "cookie_desc": "We use cookies to improve your browsing experience, offer essential functionalities, and analyze our traffic. You can consult our <a href=\"#\" class=\"cookie-link\" data-i18n=\"cookie_link\">Cookie Policy</a> and manage your preferences at any time.",
@@ -263,7 +263,7 @@ const translations = {
         "cookies_p5": "You can manage your cookie preferences at any time by clearing your browser's cookies and browsing history.",
 
         "privacy_page_title": "Privacy Policy",
-        "privacy_p1": "At <strong>Pozolana - Construção Civil e Betão Pronto Lda.</strong>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Pozolana and how we use it.",
+        "privacy_p1": "At <strong>Pozolana Edificações Lda.</strong>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Pozolana and how we use it.",
         "privacy_p2": "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.",
         "privacy_p3": "This Privacy Policy applies only to our online activities.",
         "privacy_h2_1": "Consent",
