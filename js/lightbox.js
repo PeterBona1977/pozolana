@@ -15,10 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
             'assets/images/portfolio/monte_bom/4.jpg',
             'assets/images/portfolio/monte_bom/5.jpg'
         ],
-        'carcavelos': [
-            'assets/images/portfolio/carcavelos/1.jpg',
-            'assets/images/portfolio/carcavelos/2.jpg'
-        ],
         'freiria': [
             'assets/images/portfolio/freiria/1.jpg',
             'assets/images/portfolio/freiria/2.jpg',
@@ -31,7 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
             'assets/images/portfolio/alagoa/2.jpg',
             'assets/images/portfolio/alagoa/3.jpg',
             'assets/images/portfolio/alagoa/4.jpg',
-            'assets/images/portfolio/alagoa/5.jpg'
+            'assets/images/portfolio/alagoa/5.jpg',
+            'assets/images/portfolio/carcavelos/1.jpg',
+            'assets/images/portfolio/carcavelos/2.jpg'
         ]
     };
 
